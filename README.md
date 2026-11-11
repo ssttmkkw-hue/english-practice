@@ -1,11 +1,12 @@
-# AI Lang Learning
+# english-practice
+
+练习英语 / English practice
 
 英语口语网页课。围绕一个话题展开讲解、四段由浅入深的对话，以及关键单词。网页提问走阿里云函数；课程 JSON 放在 `content/lessons/`，Cursor / Codex 也可以往这个目录写课。
 
 ## 启动
 
 ```bash
-cd C:\Users\resta\Desktop\AI-LangLearning
 npm install
 npm run dev
 ```
@@ -34,4 +35,4 @@ npm run dev
 
 `npm run dev` 时，表达本通过 `/api/notebook` 写磁盘。只开静态页面时，浏览器里仍有一份，可再点「下载一份」。
 
-函数地址只出现在开发代理里，前端不放 API Key。本地直连的 GPT / Claude / DeepSeek / Kimi / 豆包仍按 AIExcel 的 `Ask/` 使用，不进这个网页。
+函数地址只出现在开发代理里，前端不放 API Key。
