@@ -36,3 +36,14 @@ npm run dev
 `npm run dev` 时，表达本通过 `/api/notebook` 写磁盘。只开静态页面时，浏览器里仍有一份，可再点「下载一份」。
 
 函数地址只出现在开发代理里，前端不放 API Key。
+
+## 阿里云函数与密钥
+
+网页只请求本机 `/api/fc`。Vite 再转发到阿里云，令牌不进浏览器、不进 Git。
+
+1. 复制 `.env.example` 为 `.env.local`
+2. 免费额度版不需要令牌（默认）
+3. 付费版把 `FC_URL` 换成付费地址，并填写 `FC_ACCESS_TOKEN`
+4. 改完后重新 `npm run dev`
+
+不要用 `VITE_` 前缀，那种变量会被打进前端包。令牌只放 `.env.local`。

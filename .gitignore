@@ -4,4 +4,6 @@ dist
 *.log
 .vite
 .env
+.env.local
+.env.*.local
 _last-fc-raw.txt

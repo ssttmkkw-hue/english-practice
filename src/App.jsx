@@ -187,6 +187,7 @@ export default function App() {
     try {
       const { text, finishReason } = await askFc(buildGeneratePrompt(input, notebook.items), {
         timeoutMs: 120000,
+        maxTokens: 4096,
       })
       await persistFcRaw(text)
       const next = normalizeLesson(text, { source: 'fc', topic: input })
@@ -285,6 +286,7 @@ export default function App() {
           userText: text,
           notebookItems: notebook.items,
         }),
+        { maxTokens: 1024 },
       )
       const assistantMsg = { id: `a-${Date.now()}`, role: 'assistant', text: reply }
       const saved = [...nextHistory, assistantMsg]

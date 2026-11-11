@@ -34,7 +34,7 @@ Hard limits so the reply is not cut off:
 - vocab MUST be an array of objects with word, note, example. Not "definition".
 - Each dialogue: 6 to 8 turns only.
 - vocab: 8 items, living phrases only.
-- Keep the whole JSON under 3500 words.
+- Keep the whole JSON under 3500 words.`
 
 function notebookBlock(notebookItems = []) {
   const active = notebookItems.filter((item) => item.status !== 'known').slice(0, 20)
