@@ -1,0 +1,127 @@
+{
+  "id": "weekend-plans",
+  "title": "Weekend Plans",
+  "titleZh": "周末怎么过",
+  "topic": "making, changing, and negotiating weekend plans with a friend",
+  "levelRange": "A2–B1+",
+  "scene": "Two coworkers are chatting on Thursday afternoon, trying to turn a vague 'we should hang out' into a real plan.",
+  "goals": [
+    "发出和回应周末邀请",
+    "在电影、展览、吃饭之间做选择",
+    "因为天气改计划，还不让对话冷掉",
+    "协调三个人的时间和口味"
+  ],
+  "lecture": {
+    "overview": "约周末看起来简单，真正难的是把「有空吗」变成可执行计划。先练 Are you free on Saturday? 再练 I could do ... / I'm leaning toward ... 这种带倾向的表达。B1 以后重点是改计划：If it rains, we can ... 以及照顾别人约束时的协商。口语里少用 must，多用 could、maybe、unless。",
+    "patterns": [
+      { "en": "Are you free on Saturday?", "zh": "你周六有空吗？", "note": "邀约开口最干净" },
+      { "en": "I could do brunch, or we could catch a movie.", "zh": "早午餐也行，看电影也行。", "note": "could 表示弹性，不是命令" },
+      { "en": "I'm leaning toward the museum.", "zh": "我更想去博物馆。", "note": "表达偏好，但不把对方逼死" },
+      { "en": "If it rains, we can switch to ...", "zh": "要是下雨，我们可以改成……", "note": "改计划的标准骨架" }
+    ],
+    "tips": [
+      "先确认有没有空，再抛选项，对方比较好接。",
+      "给两个选项比给一个更像商量，不像摊派。",
+      "改时间时先道歉一句，再立刻补新方案。"
+    ]
+  },
+  "dialogues": [
+    {
+      "id": "d1",
+      "level": "A2",
+      "title": "周六有空吗",
+      "titleEn": "Are you free Saturday?",
+      "summary": "最基础的邀请：有空、喝咖啡、定时间。",
+      "speakers": { "A": "Mina", "B": "Owen" },
+      "turns": [
+        { "speaker": "A", "en": "Hey. Are you free on Saturday?", "zh": "嘿，你周六有空吗？", "highlights": ["Are you free"] },
+        { "speaker": "B", "en": "I think so. What's up?", "zh": "应该有。怎么了？", "highlights": ["What's up"] },
+        { "speaker": "A", "en": "Want to get coffee in the afternoon?", "zh": "下午要不要喝咖啡？", "highlights": ["get coffee"] },
+        { "speaker": "B", "en": "Yeah, that sounds good.", "zh": "好啊，听起来不错。", "highlights": ["that sounds good"] },
+        { "speaker": "A", "en": "Around three?", "zh": "三点左右？", "highlights": ["Around"] },
+        { "speaker": "B", "en": "Three works for me.", "zh": "三点可以。", "highlights": ["works for me"] },
+        { "speaker": "A", "en": "There's a quiet cafe near the park.", "zh": "公园附近有家安静的咖啡馆。", "highlights": [] },
+        { "speaker": "B", "en": "Perfect. Text me the name.", "zh": "完美。把店名发给我。", "highlights": ["Text me"] },
+        { "speaker": "A", "en": "Sure. See you Saturday.", "zh": "好。周六见。", "highlights": [] },
+        { "speaker": "B", "en": "See you. I'm looking forward to it.", "zh": "回见。我很期待。", "highlights": ["looking forward to"] }
+      ]
+    },
+    {
+      "id": "d2",
+      "level": "A2+",
+      "title": "电影还是展览",
+      "titleEn": "Movie or museum?",
+      "summary": "两个选项里做选择，并说出理由。",
+      "speakers": { "A": "Mina", "B": "Owen" },
+      "turns": [
+        { "speaker": "A", "en": "So, movie or museum this weekend?", "zh": "那这周末看电影还是看展？", "highlights": [] },
+        { "speaker": "B", "en": "Hmm. I could do either.", "zh": "嗯，两个都行。", "highlights": ["either"] },
+        { "speaker": "A", "en": "I'm leaning toward the museum. It's quieter.", "zh": "我更想去博物馆，比较安静。", "highlights": ["I'm leaning toward"] },
+        { "speaker": "B", "en": "That's fair. Which one?", "zh": "有道理。哪一家？", "highlights": ["That's fair"] },
+        { "speaker": "A", "en": "The photography one downtown. It closes at six.", "zh": "市中心那个摄影展，六点关门。", "highlights": ["downtown"] },
+        { "speaker": "B", "en": "Then we should go after lunch.", "zh": "那我们应该午饭后去。", "highlights": ["after lunch"] },
+        { "speaker": "A", "en": "Want to grab noodles first?", "zh": "要不要先吃碗面？", "highlights": ["grab"] },
+        { "speaker": "B", "en": "Yes. I'm always up for noodles.", "zh": "好。我永远可以吃面。", "highlights": ["up for"] },
+        { "speaker": "A", "en": "Great. I'll book tickets, just in case.", "zh": "太好了。我先订票，以防万一。", "highlights": ["just in case"] },
+        { "speaker": "B", "en": "Smart. Send me the time.", "zh": "聪明。把时间发给我。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "d3",
+      "level": "B1",
+      "title": "下雨改计划",
+      "titleEn": "If it rains, we switch",
+      "summary": "天气预报不好，练习改方案但不取消见面。",
+      "speakers": { "A": "Mina", "B": "Owen" },
+      "turns": [
+        { "speaker": "A", "en": "Have you seen the forecast? Saturday looks awful.", "zh": "你看天气预报了吗？周六很糟。", "highlights": ["forecast"] },
+        { "speaker": "B", "en": "Yeah, rain all afternoon. Outdoor plans are out.", "zh": "对，一下午都下雨。户外就算了。", "highlights": ["are out"] },
+        { "speaker": "A", "en": "If it rains, we can switch to a movie.", "zh": "要是下雨，我们可以改看电影。", "highlights": ["switch to"] },
+        { "speaker": "B", "en": "I'm fine with that. Anything except a horror film.", "zh": "我没问题。除了恐怖片什么都行。", "highlights": ["except"] },
+        { "speaker": "A", "en": "There's a new comedy at 2:40.", "zh": "两点四十有部新喜剧。", "highlights": [] },
+        { "speaker": "B", "en": "That works, unless you still want the museum.", "zh": "可以，除非你还想去博物馆。", "highlights": ["unless"] },
+        { "speaker": "A", "en": "The museum can wait. I'd rather not get soaked.", "zh": "博物馆可以以后再去。我可不想淋成落汤鸡。", "highlights": ["I'd rather", "get soaked"] },
+        { "speaker": "B", "en": "Same here. Let's meet in the lobby at 2:20.", "zh": "我也是。两点二十大厅见。", "highlights": ["lobby"] },
+        { "speaker": "A", "en": "Deal. I'll grab the tickets tonight.", "zh": "成交。今晚我去买票。", "highlights": ["Deal"] },
+        { "speaker": "B", "en": "Thanks. Text me if the time changes.", "zh": "谢了。时间有变就发消息。", "highlights": [] }
+      ]
+    },
+    {
+      "id": "d4",
+      "level": "B1+",
+      "title": "三个人怎么约",
+      "titleEn": "Making it work for three",
+      "summary": "再加一个朋友，时间、饮食、预算都要协商。",
+      "speakers": { "A": "Mina", "B": "Owen" },
+      "turns": [
+        { "speaker": "A", "en": "Chris wants to join, but he's free only after five.", "zh": "Chris 也想加入，可他五点后才有空。", "highlights": ["join"] },
+        { "speaker": "B", "en": "Then the afternoon movie is tight. Dinner might be easier.", "zh": "那下午电影就紧了。晚饭可能更容易。", "highlights": ["tight"] },
+        { "speaker": "A", "en": "He's vegetarian, so somewhere with real options.", "zh": "他吃素，得找一家真有素食可选的。", "highlights": ["vegetarian", "options"] },
+        { "speaker": "B", "en": "There's a Thai place that's reasonable, not fancy.", "zh": "有家泰国菜不贵，也不摆谱。", "highlights": ["reasonable"] },
+        { "speaker": "A", "en": "Good. I'm trying not to blow the budget this month.", "zh": "好。这个月我不想把预算花超。", "highlights": ["blow the budget"] },
+        { "speaker": "B", "en": "Same. We could split a few dishes and keep it light.", "zh": "我也是。可以拼几道菜，吃轻松点。", "highlights": ["split", "keep it light"] },
+        { "speaker": "A", "en": "I'll check with Chris and lock in 6:30, unless he pushes back.", "zh": "我去问 Chris，先定 6:30，除非他反对。", "highlights": ["lock in", "pushes back"] },
+        { "speaker": "B", "en": "If 6:30 is too early, 7 is still fine on my side.", "zh": "如果 6:30 太早，我这边 7 点也行。", "highlights": ["on my side"] },
+        { "speaker": "A", "en": "Appreciate it. I'll send a group chat once it's settled.", "zh": "谢了。定下来我就拉群。", "highlights": ["once it's settled"] },
+        { "speaker": "B", "en": "Perfect. Weekend rescued.", "zh": "完美。周末保住了。", "highlights": ["rescued"] }
+      ]
+    }
+  ],
+  "vocab": [
+    { "word": "Are you free", "ipa": "/ɑːr juː friː/", "pos": "phr.", "zh": "你有空吗", "example": "Are you free on Saturday?", "note": "邀约第一句，后面再跟具体活动" },
+    { "word": "works for me", "ipa": "/wɜːrks fər mi/", "pos": "phr.", "zh": "我可以/对我合适", "example": "Three works for me.", "note": "答应时间时很自然" },
+    { "word": "looking forward to", "ipa": "/ˈlʊkɪŋ ˈfɔːrwərd tuː/", "pos": "phr.", "zh": "期待", "example": "I'm looking forward to it.", "note": "to 后面接名词或 doing" },
+    { "word": "I'm leaning toward", "ipa": "/aɪm ˈliːnɪŋ təˈwɔːrd/", "pos": "phr.", "zh": "我更倾向于", "example": "I'm leaning toward the museum.", "note": "表达偏好但不武断" },
+    { "word": "up for", "ipa": "/ʌp fər/", "pos": "phr.", "zh": "愿意做、有兴致", "example": "I'm always up for noodles.", "note": "I'm up for + 名词/doing" },
+    { "word": "just in case", "ipa": "/dʒʌst ɪn keɪs/", "pos": "phr.", "zh": "以防万一", "example": "I'll book tickets, just in case.", "note": "口语里极常用的保险说法" },
+    { "word": "forecast", "ipa": "/ˈfɔːrkæst/", "pos": "n.", "zh": "天气预报", "example": "Have you seen the forecast?", "note": "改户外计划时的开口词" },
+    { "word": "are out", "ipa": "/ɑːr aʊt/", "pos": "phr.", "zh": "不行了、排除了", "example": "Outdoor plans are out.", "note": "比 impossible 更口语" },
+    { "word": "switch to", "ipa": "/swɪtʃ tuː/", "pos": "phr.", "zh": "改成", "example": "If it rains, we can switch to a movie.", "note": "改计划的核心动词" },
+    { "word": "get soaked", "ipa": "/ɡet soʊkt/", "pos": "phr.", "zh": "淋透", "example": "I'd rather not get soaked.", "note": "抱怨下雨时很生动" },
+    { "word": "tight", "ipa": "/taɪt/", "pos": "adj.", "zh": "时间紧", "example": "The afternoon movie is tight.", "note": "schedule is tight 同义" },
+    { "word": "blow the budget", "ipa": "/bloʊ ðə ˈbʌdʒɪt/", "pos": "phr.", "zh": "超支", "example": "I'm trying not to blow the budget this month.", "note": "朋友间谈钱比较委婉" },
+    { "word": "lock in", "ipa": "/lɑːk ɪn/", "pos": "phr.", "zh": "敲定", "example": "I'll lock in 6:30, unless he pushes back.", "note": "把暂定变成确定" },
+    { "word": "once it's settled", "ipa": "/wʌns ɪts ˈsetld/", "pos": "phr.", "zh": "一旦定下来", "example": "I'll send a group chat once it's settled.", "note": "适合收尾、安排下一步" }
+  ],
+  "source": "seed"
+}

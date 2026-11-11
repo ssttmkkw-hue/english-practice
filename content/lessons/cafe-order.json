@@ -1,0 +1,127 @@
+{
+  "id": "cafe-order",
+  "title": "Ordering Coffee",
+  "titleZh": "咖啡馆点单",
+  "topic": "ordering drinks and handling small problems at a cafe",
+  "levelRange": "A2–B1+",
+  "scene": "A neighborhood cafe at 8:30 a.m. The line is moving, and the barista is friendly but busy.",
+  "goals": [
+    "用 I'd like / Can I get 完成点单",
+    "说明尺寸、温度、外卖和加料",
+    "发现拿错时礼貌地请求重做",
+    "和店员做一两句自然闲聊"
+  ],
+  "lecture": {
+    "overview": "点咖啡是最实用的口语场景之一。先练稳妥句型 I'd like a ..., please. 再补上尺寸、热冷、外带。进阶时学会 customize（燕麦奶、少冰、加一份浓缩），以及拿错时不卑不亢地说明问题。真正的流利，不是背菜单，而是能在噪声和排队里把需求说清楚。",
+    "patterns": [
+      { "en": "I'd like a ..., please.", "zh": "我想要一份……", "note": "最稳、最礼貌的点单句" },
+      { "en": "Can I get that for here / to go?", "zh": "在店里喝还是带走？", "note": "for here = 堂食，to go = 外带" },
+      { "en": "Could you make it with oat milk?", "zh": "可以换成燕麦奶吗？", "note": "make it with 用来改配料" },
+      { "en": "I think this might be the wrong order.", "zh": "这好像不是我点的。", "note": "比 You made a mistake 更软、更自然" }
+    ],
+    "tips": [
+      "先报饮品，再报尺寸和特殊要求，店员更好记。",
+      "听不清时直接说 Sorry, could you repeat that? 比装懂更省事。",
+      "名字报一个短的、好拼的即可，不必解释姓氏。"
+    ]
+  },
+  "dialogues": [
+    {
+      "id": "d1",
+      "level": "A2",
+      "title": "简单点单",
+      "titleEn": "A simple order",
+      "summary": "只要一杯热美式，带走。句型短，节奏慢。",
+      "speakers": { "A": "Customer", "B": "Barista" },
+      "turns": [
+        { "speaker": "A", "en": "Hi. I'd like a coffee, please.", "zh": "你好，我想要一杯咖啡。", "highlights": ["I'd like"] },
+        { "speaker": "B", "en": "Sure. Americano or latte?", "zh": "好的。美式还是拿铁？", "highlights": ["Americano"] },
+        { "speaker": "A", "en": "An Americano, please. Hot.", "zh": "美式，热的。", "highlights": ["Hot"] },
+        { "speaker": "B", "en": "Small, medium, or large?", "zh": "小杯、中杯还是大杯？", "highlights": ["medium"] },
+        { "speaker": "A", "en": "Medium, please.", "zh": "中杯。", "highlights": [] },
+        { "speaker": "B", "en": "For here or to go?", "zh": "堂食还是外带？", "highlights": ["to go"] },
+        { "speaker": "A", "en": "To go, please.", "zh": "外带。", "highlights": ["To go"] },
+        { "speaker": "B", "en": "That's 4.50. Card is fine.", "zh": "4.5 美元，可以刷卡。", "highlights": [] },
+        { "speaker": "A", "en": "Here you go. Thanks.", "zh": "给你，谢谢。", "highlights": ["Here you go"] },
+        { "speaker": "B", "en": "Your drink will be ready in a minute.", "zh": "咖啡马上好。", "highlights": ["in a minute"] }
+      ]
+    },
+    {
+      "id": "d2",
+      "level": "A2+",
+      "title": "定制一杯",
+      "titleEn": "Make it the way I like",
+      "summary": "燕麦奶、少冰、加一份浓缩，还要报名字。",
+      "speakers": { "A": "Customer", "B": "Barista" },
+      "turns": [
+        { "speaker": "A", "en": "Hi. Can I get an iced latte?", "zh": "你好，来一杯冰拿铁。", "highlights": ["Can I get", "iced latte"] },
+        { "speaker": "B", "en": "Of course. What size?", "zh": "当然。要什么尺寸？", "highlights": ["What size"] },
+        { "speaker": "A", "en": "Large, please. Could you make it with oat milk?", "zh": "大杯。可以换成燕麦奶吗？", "highlights": ["make it with oat milk"] },
+        { "speaker": "B", "en": "Oat milk is fine. Anything else?", "zh": "燕麦奶没问题。还要别的吗？", "highlights": ["Anything else"] },
+        { "speaker": "A", "en": "An extra shot, and not too much ice.", "zh": "加一份浓缩，冰不要太多。", "highlights": ["extra shot", "not too much ice"] },
+        { "speaker": "B", "en": "Got it. One large iced oat latte, extra shot, light ice.", "zh": "收到。大杯冰燕麦拿铁，加一份浓缩，少冰。", "highlights": ["light ice"] },
+        { "speaker": "A", "en": "Yes, that's perfect.", "zh": "对，就是这样。", "highlights": [] },
+        { "speaker": "B", "en": "Name for the order?", "zh": "名字写哪个？", "highlights": ["Name for the order"] },
+        { "speaker": "A", "en": "Alex. Just A-L-E-X.", "zh": "Alex，就这四个字母。", "highlights": [] },
+        { "speaker": "B", "en": "Great. I'll call you when it's ready.", "zh": "好。好了我会叫你。", "highlights": ["I'll call you"] }
+      ]
+    },
+    {
+      "id": "d3",
+      "level": "B1",
+      "title": "拿错了",
+      "titleEn": "This isn't my drink",
+      "summary": "拿到的是热的、还偏甜。练习礼貌地指出问题。",
+      "speakers": { "A": "Customer", "B": "Barista" },
+      "turns": [
+        { "speaker": "A", "en": "Sorry, I think this might be the wrong order.", "zh": "不好意思，这好像不是我点的。", "highlights": ["wrong order"] },
+        { "speaker": "B", "en": "Oh? What did you order?", "zh": "哦？你点的是什么？", "highlights": [] },
+        { "speaker": "A", "en": "An iced oat latte, not too sweet.", "zh": "冰燕麦拿铁，不要太甜。", "highlights": ["not too sweet"] },
+        { "speaker": "B", "en": "This one is hot, and it has vanilla syrup.", "zh": "这杯是热的，还加了香草糖浆。", "highlights": ["vanilla syrup"] },
+        { "speaker": "A", "en": "Yeah. Could you remake it? No syrup, please.", "zh": "对。能重做一杯吗？不要糖浆。", "highlights": ["remake it"] },
+        { "speaker": "B", "en": "Absolutely. Sorry about that. I'll do it right away.", "zh": "当然可以，抱歉。我马上做。", "highlights": ["right away"] },
+        { "speaker": "A", "en": "No worries. I'm not in a rush.", "zh": "没关系，我不赶时间。", "highlights": ["not in a rush"] },
+        { "speaker": "B", "en": "Thanks for being patient. I'll make it extra cold.", "zh": "谢谢你的耐心。我会做得更冰一点。", "highlights": ["being patient"] },
+        { "speaker": "A", "en": "That would be great.", "zh": "那就太好了。", "highlights": [] },
+        { "speaker": "B", "en": "Here you go. Iced oat latte, no syrup. Enjoy.", "zh": "给你。冰燕麦拿铁，无糖浆。请慢用。", "highlights": ["no syrup"] }
+      ]
+    },
+    {
+      "id": "d4",
+      "level": "B1+",
+      "title": "和店员闲聊",
+      "titleEn": "A little cafe small talk",
+      "summary": "点完单后问推荐、Wi-Fi 和积分卡，像常客一样说话。",
+      "speakers": { "A": "Customer", "B": "Barista" },
+      "turns": [
+        { "speaker": "A", "en": "Morning. What's good if I need to stay awake?", "zh": "早。有什么适合提神的？", "highlights": ["stay awake"] },
+        { "speaker": "B", "en": "Honestly? The cold brew is stronger than it looks.", "zh": "说实话？冷萃看起来温和，实际很猛。", "highlights": ["cold brew"] },
+        { "speaker": "A", "en": "I'll take that. And is the Wi-Fi decent today?", "zh": "那我要这个。今天 Wi-Fi 还行吗？", "highlights": ["decent"] },
+        { "speaker": "B", "en": "It's fine if you sit by the window. Password is on the board.", "zh": "坐窗边就还行。密码写在板上。", "highlights": ["by the window"] },
+        { "speaker": "A", "en": "Perfect. Do you have a loyalty card?", "zh": "太好了。你们有积分卡吗？", "highlights": ["loyalty card"] },
+        { "speaker": "B", "en": "We do. Buy nine drinks, the tenth is on us.", "zh": "有。买九杯，第十杯免费。", "highlights": ["on us"] },
+        { "speaker": "A", "en": "Nice. I've been coming here more often lately.", "zh": "不错。我最近来得更勤了。", "highlights": ["more often"] },
+        { "speaker": "B", "en": "I noticed. You usually get the oat latte, right?", "zh": "我注意到了。你平时是燕麦拿铁吧？", "highlights": ["I noticed"] },
+        { "speaker": "A", "en": "Usually, yes. Today I need something stronger.", "zh": "平时是。今天需要更提神的。", "highlights": ["something stronger"] },
+        { "speaker": "B", "en": "Then this should do the trick. I'll bring it over.", "zh": "那这杯应该管用。我给你送过去。", "highlights": ["do the trick"] }
+      ]
+    }
+  ],
+  "vocab": [
+    { "word": "I'd like", "ipa": "/aɪd laɪk/", "pos": "phr.", "zh": "我想要", "example": "I'd like a coffee, please.", "note": "点单首选，比 I want 更礼貌" },
+    { "word": "to go", "ipa": "/tə ˈɡoʊ/", "pos": "phr.", "zh": "外带", "example": "For here or to go?", "note": "美式口语；英式常说 takeaway" },
+    { "word": "Americano", "ipa": "/əˌmerɪˈkɑːnoʊ/", "pos": "n.", "zh": "美式咖啡", "example": "An Americano, please. Hot.", "note": "菜单上最常见的黑咖啡说法" },
+    { "word": "Can I get", "ipa": "/kæn aɪ ɡet/", "pos": "phr.", "zh": "给我来一份", "example": "Can I get an iced latte?", "note": "比 I'd like 更随意、更口语" },
+    { "word": "oat milk", "ipa": "/oʊt mɪlk/", "pos": "n.", "zh": "燕麦奶", "example": "Could you make it with oat milk?", "note": "植物奶里最常点的一种" },
+    { "word": "extra shot", "ipa": "/ˈekstrə ʃɑːt/", "pos": "n.", "zh": "额外一份浓缩", "example": "An extra shot, and not too much ice.", "note": "shot = espresso shot" },
+    { "word": "light ice", "ipa": "/laɪt aɪs/", "pos": "phr.", "zh": "少冰", "example": "One large iced oat latte, extra shot, light ice.", "note": "店员复述时常用这个短写法" },
+    { "word": "wrong order", "ipa": "/rɔːŋ ˈɔːrdər/", "pos": "n.", "zh": "点错/拿错的单", "example": "I think this might be the wrong order.", "note": "投诉时先说问题，不先怪人" },
+    { "word": "remake", "ipa": "/ˌriːˈmeɪk/", "pos": "v.", "zh": "重做", "example": "Could you remake it? No syrup, please.", "note": "饮料做错了就用 remake，不要说 redo the coffee" },
+    { "word": "not in a rush", "ipa": "/nɑːt ɪn ə rʌʃ/", "pos": "phr.", "zh": "不赶时间", "example": "No worries. I'm not in a rush.", "note": "缓和气氛的好句子" },
+    { "word": "cold brew", "ipa": "/koʊld bruː/", "pos": "n.", "zh": "冷萃咖啡", "example": "The cold brew is stronger than it looks.", "note": "提神场景里很自然的推荐" },
+    { "word": "loyalty card", "ipa": "/ˈlɔɪəlti kɑːrd/", "pos": "n.", "zh": "积分卡/会员卡", "example": "Do you have a loyalty card?", "note": "常客闲聊时很实用" },
+    { "word": "on us", "ipa": "/ɑːn ʌs/", "pos": "phr.", "zh": "由店家请客/免费", "example": "Buy nine drinks, the tenth is on us.", "note": "on the house 是近义说法" },
+    { "word": "do the trick", "ipa": "/duː ðə trɪk/", "pos": "idiom", "zh": "管用、能解决问题", "example": "Then this should do the trick.", "note": "口语里表示「这应该就够了」" }
+  ],
+  "source": "seed"
+}

@@ -1,0 +1,16 @@
+{
+  "updatedAt": "2026-08-30T11:06:44.308Z",
+  "note": "User-marked idioms and living expressions. Later AIs should prioritize these when generating lessons or chatting.",
+  "items": [
+    {
+      "id": "nb-1788088004297-ty9j6",
+      "phrase": "do the trick",
+      "note": "口语里表示「这应该就够了」",
+      "example": "Then this should do the trick.",
+      "lessonId": "cafe-order",
+      "lessonTitle": "Ordering Coffee",
+      "status": "learning",
+      "addedAt": "2026-08-30T11:06:44.297Z"
+    }
+  ]
+}
