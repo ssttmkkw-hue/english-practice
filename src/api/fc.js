@@ -1,4 +1,5 @@
-const FC_URL = '/api/fc'
+const FREE_FC_URL = 'https://aliyun-ee-quota-wbvmebudhe.cn-hangzhou.fcapp.run'
+const FC_URL = import.meta.env.PROD ? FREE_FC_URL : '/api/fc'
 
 function pickReply(data) {
   const reply = data?.reply || data?.choices?.[0]?.message?.content

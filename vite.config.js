@@ -122,6 +122,7 @@ export default defineConfig(({ mode }) => {
   const fcToken = env.FC_ACCESS_TOKEN || ''
 
   return {
+    base: mode === 'production' ? '/english-practice/' : '/',
     plugins: [react(), contentApiPlugin()],
     server: {
       port: 5174,

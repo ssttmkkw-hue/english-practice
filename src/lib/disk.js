@@ -1,4 +1,7 @@
+import { saveLocalLesson } from './storage'
+
 export async function fetchDiskLessons() {
+  if (import.meta.env.PROD) return []
   try {
     const resp = await fetch('/api/lessons')
     if (!resp.ok) return []
@@ -10,6 +13,10 @@ export async function fetchDiskLessons() {
 }
 
 export async function persistLesson(lesson) {
+  if (import.meta.env.PROD) {
+    saveLocalLesson(lesson)
+    return { disk: false, path: '', error: '' }
+  }
   try {
     const resp = await fetch('/api/lesson', {
       method: 'PUT',
@@ -17,17 +24,19 @@ export async function persistLesson(lesson) {
       body: JSON.stringify(lesson),
     })
     if (!resp.ok) {
-      const raw = await resp.text()
-      return { disk: false, path: '', error: raw.slice(0, 200) }
+      saveLocalLesson(lesson)
+      return { disk: false, path: '', error: '' }
     }
     const data = await resp.json()
     return { disk: true, path: data.path || `content/lessons/${lesson.id}.json` }
-  } catch (error) {
-    return { disk: false, path: '', error: String(error.message || error) }
+  } catch {
+    saveLocalLesson(lesson)
+    return { disk: false, path: '', error: '' }
   }
 }
 
 export async function persistFcRaw(text) {
+  if (import.meta.env.PROD) return
   try {
     await fetch('/api/lesson-raw', {
       method: 'PUT',

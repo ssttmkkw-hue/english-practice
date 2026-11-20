@@ -18,15 +18,17 @@ function readLocal() {
 }
 
 export async function fetchNotebook() {
-  try {
-    const resp = await fetch('/api/notebook')
-    if (resp.ok) {
-      const data = await resp.json()
-      localStorage.setItem(NOTEBOOK_KEY, JSON.stringify(data))
-      return { data, disk: true }
+  if (!import.meta.env.PROD) {
+    try {
+      const resp = await fetch('/api/notebook')
+      if (resp.ok) {
+        const data = await resp.json()
+        localStorage.setItem(NOTEBOOK_KEY, JSON.stringify(data))
+        return { data, disk: true }
+      }
+    } catch {
+      /* preview / static */
     }
-  } catch {
-    /* preview / static */
   }
   return { data: readLocal(), disk: false }
 }
@@ -38,6 +40,7 @@ export async function persistNotebook(next) {
     items: Array.isArray(next.items) ? next.items : [],
   }
   localStorage.setItem(NOTEBOOK_KEY, JSON.stringify(payload))
+  if (import.meta.env.PROD) return { data: payload, disk: false }
   try {
     const resp = await fetch('/api/notebook', {
       method: 'PUT',
